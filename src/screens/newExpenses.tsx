@@ -25,6 +25,7 @@ const NewExpenses = ({navigation}: INewExpenses) => {
         category,
       };
       await storeExpenseOnBlockchain(newExpense);
+      addExpense!(newExpense);
       navigation.goBack();
     }
   };
