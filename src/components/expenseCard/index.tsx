@@ -24,7 +24,7 @@ const ExpenseCard = ({item}: {item: IEspenses}) => {
           <View
             style={{
               borderRadius: 40,
-              height: 90,
+              minHeight:40,
               backgroundColor: colors.color100,
               alignItems: 'center',
               justifyContent: 'center',
